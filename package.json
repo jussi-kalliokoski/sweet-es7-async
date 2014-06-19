@@ -1,0 +1,34 @@
+{
+  "name": "sweet-es7-async",
+  "version": "0.0.0",
+  "description": "A sweet.js macro for ES7 async functions.",
+  "main": "index.sjs",
+  "files": [
+    "index.sjs"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/sjs --module ./index.sjs --readable-names -o test/actual.js test/fixtures.js && diff test/actual.js test/expected.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jussi-kallikoski/sweet-es7-async.git"
+  },
+  "keywords": [
+    "sweet-macros",
+    "macros",
+    "ES7",
+    "async",
+    "functions",
+    "await",
+    "promises"
+  ],
+  "author": "Jussi Kalliokoski <jussi.kalliokoski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jussi-kallikoski/sweet-es7-async/issues"
+  },
+  "homepage": "https://github.com/jussi-kallikoski/sweet-es7-async",
+  "devDependencies": {
+    "sweet.js": "^0.6.0"
+  }
+}
