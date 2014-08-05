@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jussi-kallikoski/sweet-es7-async.git"
+    "url": "git://github.com/jussi-kalliokoski/sweet-es7-async.git"
   },
   "keywords": [
     "sweet-macros",
@@ -25,9 +25,9 @@
   "author": "Jussi Kalliokoski <jussi.kalliokoski@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jussi-kallikoski/sweet-es7-async/issues"
+    "url": "https://github.com/jussi-kalliokoski/sweet-es7-async/issues"
   },
-  "homepage": "https://github.com/jussi-kallikoski/sweet-es7-async",
+  "homepage": "https://github.com/jussi-kalliokoski/sweet-es7-async",
   "devDependencies": {
     "sweet.js": "^0.6.0"
   }
